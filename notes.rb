@@ -112,3 +112,163 @@
 # puts "what is your name?"
 # first_name = "jill"
 # puts "Hello and welcome #{first_name}"
+
+# review 
+# Boolean
+# true false 
+# array
+# ["bob", 12, true]
+# hash
+# {key: value}
+# {model: "toyota", year: 2000}
+# integer
+# 1234
+# -12341
+# 0
+# float 
+# 1.12312
+# -12.123123123
+# 0.0
+# string
+# "" ''
+# Date
+# nil 
+#   no value
+# NAN
+#   not a number
+# undefined
+#   not created yet
+
+# methods
+# - break our code into small parts 
+# - single task
+# - descriptive name 
+# - return , last line is return 
+# - make sure to end
+# to use call method its name
+# def method_name
+
+# end
+# method_name
+# # args/ params
+# def method2_name(arg, arg2)
+
+# end
+
+# method2_name("hi", 2)
+
+# def welcome_msg
+#   puts "Welcome to my app"
+#   puts "I hope you enjoy"
+# end
+
+# welcome_msg
+
+# def welcome_name(name, age)
+#   puts "hello #{name}"
+#   puts "You are #{age} years old"
+# end
+
+# welcome_name("bob", 12)
+# welcome_name("jill", 21)
+# str = "Hello w World"
+# puts str.downcase.split(" ").last
+
+# Statement -return a boolean 
+# <
+# <=
+# >
+# >=
+# == 
+# ===
+# !
+# || - or 
+# && - and
+# make sure that the statement is not 
+# always true or always false
+# Conditional - run logic when a condition is met
+# make sure you end
+# if, else if, else 
+# case 
+# ternary
+# unless
+
+# name = "joe"
+# if name == "bob"
+#   puts "hello bob"
+# elsif name == "jill"
+#   puts " hello jill"
+# else
+#   puts "you are not the droids we are looking for"
+# end
+
+# case name 
+#   when "bob"
+#     puts "hello bob"
+#   when "jill"
+#     puts " hello jill"
+#   else
+#     puts "you are not the droids we are looking for"
+#   end
+# num = 2
+# if num % 2 == 0
+#   puts "even"
+# else 
+#   puts "odd"
+# end
+
+# ternary will do a if else all in one line, 
+# assignment = condition ? if : else 
+# puts num % 2 == 0 ? "even" :  "odd"
+
+# Loops - continue run logic until a condition is met 
+# infinite loop  - runs forever  
+# stop a loop or stop the program ctrl + c
+# while true
+#   puts "hi"
+# end
+# base case - start point 
+# induction step - continue to loop through 
+# a way to get out of the the loop , condition 
+# ++
+# --
+# +=
+# -=
+# *=
+# num = 0
+# while num < 5
+#   puts num
+#   num += 1
+# end
+# until num > 5
+#   puts num
+#   num += 1
+# end
+
+# for num in (0..5)
+#   puts num 
+# end
+
+# [1, 2, 3, 4, 5].each do |num|
+#   puts num 
+# end
+# [1, 2, 3, 4, 5].map { |num|
+#   puts num 
+# }
+# input and outputs 
+# puts - display into the terminal in a new line 
+# print - print in the same line 
+# p - same line, shows data type syntax 
+# puts "hello"
+# print "hello"
+# p "hello"
+
+# input - grab the user info
+# gets - prompt user to grab info, assign to var
+
+# puts "what is your name ?"
+# first_name = gets
+# puts "hello #{first_name}"
+
+# puts `pwd`
+# man - infor on terminal commands  
